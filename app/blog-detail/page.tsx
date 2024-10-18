@@ -24,7 +24,7 @@ interface Album {
             setAlbums(data.album || []);
         }
 
-        //fetchdata();
+        fetchdata();
     }, []);
 
     return (
